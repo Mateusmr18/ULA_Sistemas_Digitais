@@ -1,4 +1,5 @@
 Projeto da cadeira de Sistemas Digitais do 2° Período do CIN-UFPE, feitos pelos alunos Eduardo  Gabriel de Souza Pedroza(egsp), Mateus Rafael Correia de Melo(mrcm), Matheus Enrico Carmo dos Santos Barros(mecsb), Ryann André Dias da Silva(rads).
+
 1 VISÃO GERAL
 Aqui está o PDF, do circuito da ULA completa:
 
@@ -87,18 +88,22 @@ Para fins de visualização ou depuração, todos os bits do operando A são con
 
 2 TABELAS DA VERDADE E CÁLCULOS
 Todos os mapas K e a Tabela Verdade, estão nesse link:
+
 https://drive.google.com/drive/folders/1hgnb0tnKJqp4AvxslmlubhAVRK5t5fhi?usp=sharing
 
 3 CIRCUITO PROJETADO DE CADA MÓDULO E SIMULAÇÃO       
 Todos os Circuitos, estão nesse link:
+
 https://drive.google.com/drive/folders/1MR-M5QzLk95kxUSldih9ZTnhtBNm5P-p?usp=drive_link
 
 4 CIRCUITO COM TODO SISTEMA CONECTADO E SIMULAÇÃO
 O Circuito completo, está nesse link:
+
 https://drive.google.com/file/d/1ns2oFHLItaB6hthZ0V__RjLe7do5mqC3/view?usp=drive_link
 
 5 CONCLUSÃO
 Nossa ULA foi bem desenvolvida conforme a solicitação do professor, nós tivemos alguns erros e dificuldades durante o processo, mas conseguimos concluir com êxito! Nossa ULA, realiza todas operações solicitadas, são elas: Soma, Subtração, Complemento a 2 de B, Igualdade, Maior que, Menor que, AND, XOR. As operações de soma e subtração, são visíveis no display de 7 segmentos e o restante das operações são visíveis através dos LEDs.
+
 https://drive.google.com/drive/folders/1aUW6N9AulR-d7G6vuttpxqqtV7OnybmZ?usp=drive_link
 
 
