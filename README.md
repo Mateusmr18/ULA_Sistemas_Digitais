@@ -31,11 +31,15 @@ Foi feita apenas a operação de XNOR bit a bit, ja que essa porta retorna 1 cas
 
 7 SEGMENTOS:
 Foi feita a tabela verdade com 31 possibilidades (0 à 30) e a partir da tabela foram geradas equações simplificadas para cada segmento através dos mapasK
+
 https://drive.google.com/file/d/1qhmBa244utmmz7rR0cP7Q6JKTtrThV74/view?usp=drive_link
 
 display das dezenas:
+
 https://drive.google.com/drive/folders/1MI910QVA8LQkhBWgaw7SGAoHdZROCSFC?usp=drive_link
+
 display das unidades:
+
 https://drive.google.com/drive/folders/1HTm1H6i93d6wbc8e_82HiDVvNLei5lKd?usp=drive_link
 
 
@@ -57,7 +61,9 @@ OPERAÇÕES AND XOR:
 Ambas as operações, AND e XOR, foram implementadas utilizando um método bit-wise, que compara os bits individualmente e retorna uma saída para cada comparação. As saídas de sinal (SA e SB) também foram comparadas dessa forma.
 
 MUX DE PALAVRA DE 6 BITS:
+
 https://drive.google.com/file/d/1iTI8543rjlls4Dm7vReln4i7_H7dv8LY/view?usp=drive_link
+
 O componente denominado MUX2 foi desenvolvido com a finalidade de controlar qual sinal será exibido no display ou nos LEDs. Sua principal função é selecionar, por meio dos sinais de controle, se o resultado da operação (soma ou subtração) será exibido no display; caso contrário, o valor correspondente será direcionado para os LEDs.
 A necessidade de um multiplexador com 8 entradas e 1 saída, em que cada entrada e a saída possuem 6 bits, motivou a criação do MUX2. Para isso, o MUX2 foi implementado como um conjunto de 6 multiplexadores menores, cada um com 8 entradas e 1 saída de 1 bit. Dessa forma, combinando esses 6 MUXs, foi possível obter um único multiplexador com 8 entradas de 6 bits e 1 saída de 6 bits.
 O MUX2 utiliza três sinais de seleção (S0, S1 e S2), os quais são compartilhados entre todos os 6 MUXs menores, garantindo assim a seleção coordenada e simultânea dos bits correspondentes de cada palavra de 6 bits.
